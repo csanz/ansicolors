@@ -8,7 +8,7 @@ app.configure(function(){
    .use(express.static(__dirname + '/../public'))
 });
 
-app.get('/pallete', function(res, res, next){
+app.get('*', function(res, res, next){
   var colors = []
     , i = 1;
   for(i=1;i<=255;i++){
