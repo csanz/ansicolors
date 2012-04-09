@@ -9,10 +9,10 @@ app.configure(function(){
 });
 
 app.get('*', function(res, res, next){
-  var colors = []
-    , i = 1;
-  for(i=1;i<=255;i++){
+  var colors = [];
+  for(i=0;i<=255;i++){
     colors.push("[48;5;"+i+"m "+i+" ");
+    if(i==255) colors.push("[49m  [49m")
   }
   res.render('pallete', {colors: colors});
 })
