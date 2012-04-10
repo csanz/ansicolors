@@ -5,7 +5,6 @@ app.configure(function(){
   this
    .set('views', __dirname)
    .set('view engine', 'jade')
-   .use(express.static(__dirname + '/../public'))
 });
 
 app.get('*', function(res, res, next){
