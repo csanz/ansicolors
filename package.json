@@ -1,7 +1,7 @@
 {
     "name"        : "ansi-color-palette"
   , "version"     : "0.0.1"
-  , "description" : "super simple asni color palette"
+  , "description" : "super simple ansi color palette"
   , "author"      : "Christian Sanz <chrissanz@gmail.com>"
   , "dependencies": {
         "express"           : "2.5.4"
